@@ -1,0 +1,21 @@
+/* .headerPrincipal-titulo{
+    display: inline-block;
+    vertical-align: middle;  alinear verticalmente en el medio 
+}
+
+.headerPrincipal-nav{
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-left: 600px; no es util ya que no es adaptativo*/
+    /* float: right; tampoco es util ya que hay que trabajar mas ya que todo su contenido se sale del movimiento de la pagina y queda flotando donde le indiquemos por encima de todos los elementos 
+} */
+
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*espacio entre los elementos*/
+}
+
+.headerPrincipal-nav{
+    display: flex;
+}
