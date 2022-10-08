@@ -1,14 +1,4 @@
-/* .headerPrincipal-titulo{
-    display: inline-block;
-    vertical-align: middle;  alinear verticalmente en el medio 
-}
-
-.headerPrincipal-nav{
-    display: inline-block;
-    vertical-align: middle;
-    /* margin-left: 600px; no es util ya que no es adaptativo*/
-    /* float: right; tampoco es util ya que hay que trabajar mas ya que todo su contenido se sale del movimiento de la pagina y queda flotando donde le indiquemos por encima de todos los elementos 
-} */
+/* Header */
 
 .headerPrincipal .container{
     display: flex;
@@ -18,4 +8,33 @@
 
 .headerPrincipal-nav{
     display: flex;
+}
+
+/* Footer */
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column; /*alinea en comlumna*/
+    height: 250px;
+    flex-wrap: wrap; /*quiebre de columnas poniendolos a los siguientes uno al lado del otro*/
 }
