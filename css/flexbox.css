@@ -21,6 +21,11 @@
     width: 23%;
 }
 
+.videoSobre .container{
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 .rodapePrincipal-patrocinadores .container{
     display: flex;
@@ -49,3 +54,4 @@
     height: 250px;
     flex-wrap: wrap; /*quiebre de columnas poniendolos a los siguientes uno al lado del otro*/
 }
+
