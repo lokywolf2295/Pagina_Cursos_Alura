@@ -1,6 +1,22 @@
+:root {
+	--white1: #fff;
+	--white2: #f2f5f7;
+	--gray1: #ccc;
+	--gray2: #9799a6;
+	--gray3: #324c64;
+	--orange: #ec6e5a;
+	--violet: #ad85bf;
+	--ligthblue1: #5ec6f3;
+	--ligthblue2: #5e9edc;
+	--green1: #25D285;
+	--green2: #4dba7a;
+	--black: #000;
+	--fuente: 'Open Sans',Arial,sans-serif;
+  }
+
 body {
-	background-color: #F2F5F7;
-	font-family: 'Open Sans',Arial,sans-serif;
+	background-color: var(--white2);
+	font-family: var(--fuente);
 }
 
 .container {
@@ -9,7 +25,7 @@ body {
 }
 
 .headerPrincipal {
-	background-color: #FFF;
+	background-color: var(--white1);
 	padding: 20px 0;
 }
 
@@ -27,13 +43,13 @@ body {
 .headerPrincipal-nav-link {
 	padding: 10px;
 	margin-bottom: 10px;
-	color: #9799A6;
-	background-color: #FFF;
+	color: var(--gray2);
+	background-color: var(--white1);
 	text-decoration: none;
 	transition: .5s;
 	display: block;
 
-	border-bottom: 1px solid #9799A6;
+	border-bottom: 1px solid var(--gray2);
 }
 
 .contenidoPrincipal {
@@ -50,17 +66,17 @@ body {
 
 .contenidoPrincipal-cursos-link {
 	height: 100px;
-	background-color: #FFF;
+	background-color: var(--white1);
 	text-align: center;
 	margin: 1%;
 	transition: .3s;
-	box-shadow: 2px 2px 2px #CCC;
+	box-shadow: 2px 2px 2px var(--gray1);
 	position: relative;
 }
 
 .contenidoPrincipal-cursos-link a {
 	text-decoration: none;
-	color: #000;
+	color: var(--black);
 	font-weight: bold;
 	display: block;
 	width: 100%;
@@ -71,7 +87,7 @@ body {
 }
 
 .contenidoPrincipal-cursos-link:hover {
-	box-shadow: 4px 4px 4px #CCC;
+	box-shadow: 4px 4px 4px var(--gray1);
 }
 
 .contenidoPrincipal-cursos-link a:before {
@@ -92,17 +108,17 @@ body {
 
 
 .rodapePrincipal {
-	background-color: #324C64;
+	background-color: var(--gray3);
 	padding-top: 20px;
 }
 
 .rodapePrincipal .subtitulo {
-	color: #FFF;
+	color: var(--white1);
 }
 
 .rodapePrincipal-navMap-link {
 	text-decoration: none;
-	color: #FFF;
+	color: var(--white1);
 	margin-top: 10px;
 }
 
@@ -123,14 +139,14 @@ body {
 	margin-top: 0;
 }
 
-.navmap-list-title-bancoDeDados { color: #EC6E5A; border-left: 4px solid #EC6E5A; }
-.navmap-list-title-framework { color: #AD85BF; border-left: 4px solid #AD85BF; }
-.navmap-list-title-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
-.navmap-list-title-backend { color: #25D285; border-left: 4px solid #25D285; }
+.navmap-list-title-bancoDeDados { color: var(--orange); border-left: 4px solid var(--orange); }
+.navmap-list-title-framework { color: var(--violet); border-left: 4px solid var(--violet); }
+.navmap-list-title-frontend { color: var(--ligthblue1); border-left: 4px solid var(--ligthblue1); }
+.navmap-list-title-backend { color: var(--green1); border-left: 4px solid var(--green1); }
 
 .rodapePrincipal-patrocinadores {
 	margin-top: 30px;
-	background: #F2F5F7;
+	background: var(--white2);
 	padding: 20px 0;
 }
 
@@ -142,7 +158,7 @@ body {
 .rodapePrincipal-contatoForm label[for=email-contato] {
 	font-weight: bold;
 	font-size: 14px;
-	color: #000;
+	color: var(--black);
 	margin-bottom: 5px;
 	display: block;
 }
@@ -156,8 +172,8 @@ body {
 .rodapePrincipal-contatoForm-submit {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
-	background-color: #4DBA7A;
-	color: #FFF;
+	background-color: var(--green2);
+	color: var(--white1);
 	cursor: pointer;
 	
 }
@@ -165,13 +181,13 @@ body {
 .rodapePrincipal-contatoForm-submit,
 .rodapePrincipal-contatoForm-emailInput {
 	outline: 0;
-	border: 1px solid #4DBA7A;
+	border: 1px solid var(--green2);
 	box-sizing: border-box;
 	font-size: 16px;
 }
 
 .videoSobre {
-	background-color: #5E9EDC;
+	background-color: var(--ligthblue2);
 	padding: 25px 0;
 
 }
@@ -181,7 +197,7 @@ body {
 }
 
 .videoSobre .container {
-	color: #FFF;
+	color: var(--white1);
 }
 
 .videoSobre-sobre-title {
@@ -196,9 +212,9 @@ body {
 
 .videoSobre-button {
 	border-radius: 8px;
-	background-color: #ec6e5a;
+	background-color: var(--orange);
 	display: block;
-	color: #FFF;
+	color: var(--white1);
 	border: none;
 	height: 50px;
 	font-size: .8em;
@@ -221,12 +237,12 @@ body {
 
 	.headerPrincipal-nav-link {
 		border-radius: 5px;
-		border: 1px solid #9799A6;
+		border: 1px solid var(--gray2);
 	}
 
 	.headerPrincipal-nav-link:hover {
-		color: #FFF;
-		background-color: #9799A6;
+		color: var(--white1);
+		background-color: var(--gray2);
 	}
 
 	.headerPrincipal-titulo {
