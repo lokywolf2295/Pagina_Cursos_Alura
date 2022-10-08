@@ -1,5 +1,4 @@
 /* Header */
-
 .headerPrincipal .container{
     display: flex;
     align-items: center;
@@ -26,6 +25,21 @@
     justify-content: center;
 }
 
+.videoSobre-video {
+    flex-grow: 2; /*aumenta el tamaño del objeto o sus espaciados*/
+    flex-shrink: 2; /*achica el tamaño del objeto conforme al tamaño de la pantalla*/
+  }
+  
+  .videoSobre-sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .videoSobre-sobre-list {
+    flex-grow: 2;
+  }
+
 /* Footer */
 .rodapePrincipal-patrocinadores .container{
     display: flex;
@@ -40,11 +54,11 @@
     margin-right: 5%;
 }
 
-.rodapePrincipal-contatoForm{
+.rodapePrincipal-contactoForm{
     width: 25%;
 }
 
-.rodapePrincipal-contatoForm-fieldset {
+.rodapePrincipal-contactoForm-fieldset {
     display: flex;
 }
 
